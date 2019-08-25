@@ -46,6 +46,9 @@ namespace APIVScode.Controllers
         // DELETE api/values/5
         [HttpDelete("{id}")]
         public void Delete1(int id)
+         // PUT api/values/5
+        [HttpPut("{id}")]
+        public void Put1(int id, [FromBody] string value)
         {
         }
     }
