@@ -55,6 +55,11 @@ namespace APIVScode.Controllers
         public void Delete(int id)
         {
         }
+        // DELETE api/values/5
+        [HttpDelete("{id}")]
+        public void DeleteAdd(int id)
+        {
+        }
        
     }
 }
